@@ -3,6 +3,8 @@ const app = express()
 app.get('/', (req, res) => {
     res.send("Hello World!")
 })
-app.listen(8000, () => {
-    console.log('http://localhost:8000')
+
+const port = process.env.PORT || 8000;
+app.listen(port, () => {
+    console.log(`http://localhost:${port}`)
 })
