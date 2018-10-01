@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "8000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazaherm/node-app.git"
+  },
+  "author": "Mazaher Muraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazaherm/node-app/issues"
+  },
+  "homepage": "https://github.com/mazaherm/node-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
